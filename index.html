@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Project Task</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="task 1">
+            <h1>Task-1</h1>
+            <p>Harry's mom gave money and ased him to buy some oranges and apples. Write a programme to help Harry calculate how much money the shopkeeper will return.</p>
+            <div class="project-box">
+                <div class="all-product">
+                    <div class="product-box">
+                        <img src="./img/apple1.png" alt="">
+                        <div class="unit">
+                            <input type="text" class="product-input" id="apple" placeholder="0">
+                            <p>kg</p>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <img src="./img/orange.png" alt="">
+                        <div class="unit">
+                            <input type="text" class="product-input" id="orange" placeholder="0">
+                            <p>kg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <p>Harry's Cash :</p>
+                    <input type="text" class="input-money" id="inputMoney" placeholder="Enter Harry's Money" >
+                </div>
+               
+                <div class="flex">
+                    <p>Total cost :</p>
+                    <p class="show-output" id="totalPrice"></p>
+               </div>
+               <div class="flex">
+                    <p>Change :</p>
+                    <p class="show-output" id="changeMoney"></p>
+               </div>
+                <button class="button" onclick="changeMoney()">Show Your Change</button>
+            </div>
+        </section>
+        <section class="task 2">
+            <h1>Task-2</h1>
+            <p>Write a program to calculate the avarage marks of Mathematics, Biology, Chemistry, Physics and Bangla of a student.</p>
+            <div class="project-box">
+                <div class="flex">
+                    <p>Mathematics :</p>
+                    <input type="text" class="input-money" id="inputMath" placeholder="Enter Your Mark" >
+                </div>
+                <div class="flex">
+                    <p>Biology :</p>
+                    <input type="text" class="input-money" id="inputBio" placeholder="Enter Your Mark" >
+                </div>
+                <div class="flex">
+                    <p>Chemistry :</p>
+                    <input type="text" class="input-money" id="inputChemi" placeholder="Enter Your Mark" >
+                </div>
+                <div class="flex">
+                    <p>Physics :</p>
+                    <input type="text" class="input-money" id="inputPhy" placeholder="Enter Your Mark" >
+                </div>
+                <div class="flex">
+                    <p>Bangla :</p>
+                    <input type="text" class="input-money" id="inputBan" placeholder="Enter Your Mark" >
+                </div>
+                <div class="flex">
+                    <p>English :</p>
+                    <input type="text" class="input-money" id="inputEng" placeholder="Enter Your Mark" >
+                </div>
+                <div class="flex">
+                    <p>Average :</p>
+                    <p class="show-output" id="showAvrg"></p>
+               </div>
+                <button class="button" onclick="average()">Average</button>
+            </div>
+        </section>
+        <section class="task 3">
+            <h1>Task-3</h1>
+            <p>John's teacher gave him two variables. Each variable contains a string. John's teacher asked him to combine these two strings and print them in one line. Help John write the program.</p>
+            <div class="project-box">
+                <div class="flex">
+                    <p>First String :</p>
+                    <input type="text" class="input-money" id="firstString" placeholder="Write a string type variable" >
+                </div>
+                <div class="flex">
+                    <p>Second String :</p>
+                    <input type="text" class="input-money" id="secondString" placeholder="Write a string type variable" >
+                </div>
+               <div class="flex">
+                    <p>Combine Line :</p>
+                    <p class="show-output" id="combineLine"></p>
+               </div>
+                <button class="button" onclick="combineString()">Combine</button>
+            </div>
+        </section>
+        <section class="task 4">
+            <h1>Task-4</h1>
+            <p>Sarah's mother is teaching her mathematics. She gave Sarah a number and asked her what the reminder would be if she divided the number by 5. Help Sarah write the program.</p>
+            <div class="project-box">
+                <div class="flex">
+                    <p>Given Number :</p>
+                    <input type="text" class="input-money" id="givenNumber" placeholder="Enter Sarah's Number" >
+                </div>
+                <div class="flex">
+                    <p>Divided with :</p>
+                    <input type="text" class="input-money" id="divider" placeholder="Enter Sarah's Divider" >
+                </div>
+               <div class="flex">
+                    <p>Reminder :</p>
+                    <p class="show-output" id="reminderResult"></p>
+               </div>
+                <button class="button" onclick="reminder()">Explore Reminder</button>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

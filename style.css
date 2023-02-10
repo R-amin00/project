@@ -1,0 +1,96 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 4em 10rem;
+}
+.task {
+  background-color: honeydew;
+  padding: 4rem;
+  border: 2px solid lightgrey;
+  margin-bottom: 2rem;
+}
+.project-box {
+    background-color: gray;
+    width: 30rem;
+    min-height: 40vh;
+    margin: 2em auto;
+    padding: 4em 2em;
+   border-radius: 8px;
+}
+
+.input-money{
+  border: none;
+  background-color: aliceblue;
+  min-width: 16em;
+  /* padding: 5px;
+  border-radius: 5px; */
+}
+
+.input-money:focus{
+    outline: none;
+}
+
+.button {
+  border: none;
+  background: hotpink ;
+  color: white ;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+
+.all-product {
+  display: flex;
+  justify-content: space-evenly;
+}
+.product-box{
+  background: white;
+  width: 5em;
+  padding: 3px 5px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-box img {
+    width: 1em;
+}
+
+.unit {
+  display: flex;
+  gap: 3px;
+}
+.flex {
+    min-width: 18em;
+    background-color: aliceblue;
+    margin-bottom: 8px;
+    padding: 4px 6px;
+    border-radius : 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.product-input{
+  width: 1em;
+  background: white;
+  color: gray;
+  font-size: 14px;
+  border: none;
+}
+.product-input:focus {
+    outline: none;
+}
+
+.show-output {
+  background-color: aliceblue;
+  color: grey;
+  max-width: 18em;
+}
